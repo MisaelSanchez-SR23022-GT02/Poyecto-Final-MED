@@ -18,7 +18,7 @@
 
 Un **árbol B+** es una estructura de datos de búsqueda balanceada y autoorganizable, diseñada para trabajar eficientemente con grandes volúmenes de datos almacenados en disco. Es una variante del árbol B donde todos los datos reales se almacenan únicamente en las hojas, y los nodos internos actúan exclusivamente como índices de navegación.
 
-Trabajamos con un árbol B+ de `t = 2`, es decir, cada nodo —tanto hoja como interno— puede tener hasta **3 claves** y debe tener al menos **1 clave**, excepto la raíz. Las hojas están enlazadas secuencialmente para recorridos rápidos.
+Trabajamos con un árbol B+ de `t = 2`, es decir, cada nodo tanto hoja como interno puede tener hasta **3 claves** y debe tener al menos **1 clave**, excepto la raíz. Las hojas están enlazadas secuencialmente para recorridos rápidos.
 
 ---
 
