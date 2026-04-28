@@ -191,7 +191,7 @@ Para encontrar un dato, el árbol siempre empieza desde arriba y toma decisiones
 **2. En la Hoja `[/home, /lib]`:**
 - El sistema lee este nodo desde disco o memoria.
 - `/home` → No es, se descarta.
-- `/lib` → ✅ **Encontrado.**
+- `/lib` → **Encontrado.**
 
 <p align="center">
   <img src="./ArbolBPlus/imagen9.png" width="600">
@@ -212,7 +212,7 @@ Para encontrar un dato, el árbol siempre empieza desde arriba y toma decisiones
 - `/home` → No es, se descarta.
 - `/lib` → No es, se descarta.
 - No hay más claves en este nodo y no existe un siguiente nodo donde pueda estar (la siguiente hoja empieza en `/opt`, que ya es mayor que `/proc`).
-- ❌ **`/proc` NO encontrado.**
+- **`/proc` NO encontrado.**
 
 <p align="center">
   <img src="./ArbolBPlus/imagen10.png" width="600">
