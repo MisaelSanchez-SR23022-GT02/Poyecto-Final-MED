@@ -1,7 +1,5 @@
 # Árbol B+ - Diseño completo
 
-> Documento educativo sobre la estructura de datos **Árbol B+**, usando rutas Unix como claves de ejemplo.
-
 ---
 
 ## Tabla de Contenidos
